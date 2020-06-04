@@ -1,0 +1,93 @@
+body{
+    background-color: #9266ff;
+}
+
+#heading{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.App{
+    background-color: #3f3160;
+    min-height:500px;
+    width: 400px;
+    margin: 40px auto;
+}
+
+#to-do-form input{
+    background-color: rgba(27, 112, 137, 1);
+    border: 0; 
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    margin: 25px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#to-do-form input::placeholder{
+    color: rgba(255,255,255,0.5);
+}
+
+#to-do-form input:focus{
+    outline: none;
+}
+
+#to-do-form button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgba(202, 156, 24, 1); 
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #fff;
+}
+
+#to-do-form button:focus{
+    outline: none;
+}
+
+
+
+/* *******************************************This is for List style******************************************** */
+
+
+.list p{
+    padding: 12px;
+    position: relative;
+    transition: ease-in-out;
+    width: 300px;
+    margin: 20px auto;
+    height: 25px;
+    background-color: #bf07ac;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.list p input:focus{
+    outline: none;
+}
+
+.list p span{
+    position: absolute;
+    right: 10px;
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
